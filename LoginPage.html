@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="/Media/intern intelligence black.jpg" alt="">
+        </div>
+        <div class="login-card">
+            <img src="/Media/intern transparent.png" alt="">
+            <h2>Log In</h2> 
+            <form id="loginForm">
+                <p id="errorMessage" class="error-message"></p>
+                <input type="email" id="email" placeholder="user@example.com" required>
+                <input type="password" id="password" placeholder="password123" required>
+                <div class="options">
+                    <input type="checkbox" id="rememberMe">Rememeber Me
+                    <a href="#">Forgot Password</a>
+                </div>
+                <button type="submit">Sign In</button>
+            </form>
+            <p>Don't have an account? <a href="SignUpPage.html" id="signUp">Sign Up</a></p>
+        </div>
+    </div>
+</body>
+</html>
